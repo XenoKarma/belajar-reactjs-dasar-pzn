@@ -1,9 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import NoteApp from "./NoteApp";
+import Online from "./Online";
 
-createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById("root"))
+.render (
     <StrictMode>
-        <NoteApp />
+        <Online></Online>
     </StrictMode>
 )
